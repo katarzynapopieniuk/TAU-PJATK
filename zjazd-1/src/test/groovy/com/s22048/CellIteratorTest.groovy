@@ -14,6 +14,7 @@ class CellIteratorTest extends Specification {
         then:
         cellCoordinates.getRow() == 1
         cellCoordinates.getColumn() == 2
+        notThrown(ElementNotExistingException)
     }
 
     def "should throw exception when next coordinate doesn't exist"() {
@@ -37,6 +38,7 @@ class CellIteratorTest extends Specification {
         then:
         cellCoordinates.getRow() == 7
         cellCoordinates.getColumn() == 8
+        notThrown(ElementNotExistingException)
     }
 
     def "should throw exception when previous coordinate doesn't exist"() {

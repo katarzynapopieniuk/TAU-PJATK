@@ -4,8 +4,8 @@ public class SudokuSolver {
 
     public final SudokuGrid grid;
     public final SudokuGrid gridWorkSheet;
-    private int currentRow;
-    private int currentColumn;
+    private int currentRow = Constants.MIN_INDEX;
+    private int currentColumn = Constants.MIN_INDEX - 1;
     private boolean isSolved;
 
     public SudokuSolver(SudokuGrid grid) {

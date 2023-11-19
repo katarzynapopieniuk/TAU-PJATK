@@ -9,6 +9,6 @@
   <url>http://maven.apache.org</url>
   <modules>
     <module>zjazd-1</module>
-    <module>zjazd-1</module>
+    <module>zjazd-2</module>
   </modules>
 </project>

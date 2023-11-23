@@ -5,4 +5,8 @@
 2. Spróbuj zalogować się przy pomocy błędnych danych (nie powinno się udać)
 3. Zaloguj się przy pomocy prawidłowych danych
 4. Przejdź do panelu admina
-5. Kliknij przycisk '+ Add'
+5. Przejdź do zakładki Job > Job titles
+6. Kliknij "+ Add"
+7. Wprowadź nazwę zawodu
+8. Zapisz (ilość rekordów powinna się zwiększyć o 1)
+9. Kliknij ikonę kosza obok nazwy dodanego zawodu (ilość rekordów powinna się zmniejszyć o 1)

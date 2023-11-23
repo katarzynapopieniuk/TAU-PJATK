@@ -12,7 +12,7 @@ class TestRunner {
     static void beforeAll() {
         System.setProperty("webdriver.gecko.driver", "");
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\s22048\\Downloads\\chromedriver_win32\\chromedriver.exe");
-        System.setProperty("webdriver.edge.driver", "C:\\Users\\s22048\\Downloads\\edgedriver_win64\\msedgedriver.exe");
+        System.setProperty("webdriver.edge.driver", "E:\\selenium\\edgedriver_win64\\msedgedriver.exe");
     }
 
     @AfterAll

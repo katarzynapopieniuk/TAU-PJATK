@@ -10,3 +10,13 @@
 7. Wprowadź nazwę zawodu
 8. Zapisz (ilość rekordów powinna się zwiększyć o 1)
 9. Kliknij ikonę kosza obok nazwy dodanego zawodu (ilość rekordów powinna się zmniejszyć o 1)
+
+## Demo OpenMRS
+1. Wejdź na stronę https://demo.openmrs.org/openmrs/login.htm
+2. Zaloguj się
+3. Przejdź do panelu dodania pacjenta
+4. Podaj dane pacjenta
+5. Potwierdź dodanie pacjenta
+6. Sprawdź, czy dane pokrywają się z podanymi
+7. Usuń pacjenta
+8. Sprawdź, czy pacjent został usunięty

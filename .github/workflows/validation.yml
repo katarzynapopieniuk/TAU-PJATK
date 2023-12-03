@@ -1,0 +1,23 @@
+name: Basic validation
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  compile:
+    runs-on: ubuntu-20.04
+    name: Java 11 compile
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@v4
+      - name: Setup Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-package: jdk
+          java-version: 11
+      - name: Compile the Project
+        working-directory: github-actions-java-maven
+        run: mvn -B compile

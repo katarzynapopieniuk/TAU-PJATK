@@ -16,8 +16,7 @@ jobs:
         uses: actions/setup-java@v3
         with:
           distribution: 'temurin'
-          java-package: jdk
+          architecture: x64
           java-version: 11
-      - name: Compile the Project
-        working-directory: github-actions-java-maven
-        run: mvn -B compile
+      - name: Run the Maven verify phase
+        run: mvn --batch-mode --update-snapshots verify

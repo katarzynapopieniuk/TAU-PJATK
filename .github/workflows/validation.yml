@@ -8,7 +8,7 @@ on:
 jobs:
   compile:
     runs-on: ubuntu-20.04
-    name: Java 11 compile
+    name: Java 11 zjazd-3 module verify
     steps:
       - name: Checkout Source Code
         uses: actions/checkout@v4
